@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@latest/dist/core.js"></script>
+    <title>AI Pick-Up Line Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>AI Pick-Up Line Generator</h1>
+
+      <div class="input-area">
+        <label for="instructions">Personal Instructions:</label><br />
+        <textarea
+          id="instructions"
+          placeholder="E.g.,  'At a party' or 'I love their smile'"
+        ></textarea>
+      </div>
+
+      <!-- Gender selection buttons -->
+      <div class="gender-options">
+        <button id="maleButton">For Males</button>
+        <button id="femaleButton">For Females</button>
+      </div>
+      <!-- Display generated line -->
+      <div id="line"></div>
+    </div>
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/wendy204" target="_blank">Panashe</a>
+      and is
+      <a
+        href="https://github.com/wendy204/Pick-Up-Line-Generator"
+        target="_blank"
+      >
+        open-sourced on GitHub</a
+      >
+      and is
+      <a href="https://aipickupline.netlify.app/" target="_blank"
+        >hosted on Netlify</a
+      >.
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="src/script.js"></script>
+  </body>
+</html>
