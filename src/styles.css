@@ -1,0 +1,77 @@
+/* src/styles.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-area {
+  margin-bottom: 20px; /* Add some spacing */
+}
+
+.input-area label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-area textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.gender-options #maleButton,
+.gender-options #femaleButton {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.gender-options #maleButton {
+  background-color: #007bff;
+}
+
+.gender-options #femaleButton {
+  background-color: rgb(238, 136, 153);
+}
+
+.gender-options #maleButton:hover {
+  background-color: #0056b3;
+}
+
+.gender-options #femaleButton:hover {
+  background-color: rgb(233, 100, 124);
+}
+
+#line {
+  margin-top: 20px;
+  font-size: 18px;
+  color: purple;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
